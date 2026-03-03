@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import DashboardEstoque from "./Painel.devolucao";
-import DashboardReversa from "./Painel.reversa";
-import DashboardVenlot from "./Painel.venlot";
+import DashboardEstoque from "./Dash.devolucao";
+import DashboardReversa from "./Dash.reversa";
+import DashboardVenlot from "./Dash.venlot";
 
 export default function App() {
   return (
@@ -21,6 +21,7 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
 
 
 
