@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import DashboardEstoque from "./DashBoard_Estoque_Devolução";
-import DashboardReversa from "./Dashboard_Produtividade_Reversa";
-import DashboardVenlot from "./DashBoard_Entrada_Saída_VenLot";
+import DashboardEstoque from "./Painel.devolucao";
+import DashboardReversa from "./Painel.reversa";
+import DashboardVenlot from "./Painel.venlot";
 
 export default function App() {
   return (
